@@ -30,10 +30,10 @@ export default function Index({ posts, tags, pagination }: Props) {
       <div className="container">
         <div>
           <h1>
-            Welcome on <span className="fancy">{config.site_title}</span>
+            Another Blog by <span className="fancy">{config.site_title}</span>
           </h1>
           <span className="handle">{config.twitter_account}</span>
-          <h2>Mengulas beragam aplikasi dan tutorial sesuai trend saat ini</h2>
+          <h2>Kumpulan Tutorial Aplikasi Mobile berbasis Android dan iOS</h2>
           <ShareList url={`/`} text={config.site_title} />
         </div>
       </div>
